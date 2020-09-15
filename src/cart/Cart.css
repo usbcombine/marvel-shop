@@ -1,0 +1,9 @@
+.cart {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.cart .slider__title {
+  margin-bottom: 40px;
+}

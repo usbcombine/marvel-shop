@@ -1,0 +1,70 @@
+.cart__comic {
+  color: #151515;
+  display: flex;
+  padding-top: 20px;
+  border-top: 1px solid #bbb;
+  margin-top: 20px;
+}
+
+.cart__comic__left-part {
+  text-align: center;
+}
+
+.cart__comic__right-part {
+  margin-left: 40px;
+}
+
+.cart__comic__image {
+}
+
+.cart__comic__title {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.cart__comic__info-label {
+  color: #999999;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.cart__comic__info {
+  font-size: 16px;
+}
+
+.cart__comic__description {
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.cart__comic__price {
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #e62429;
+  color: #fff;
+  font-family: Roboto-Bold;
+  font-size: 14px;
+  white-space: nowrap;
+  padding: 16px 32px;
+  border: 0;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #9d051a;
+}
+
+@media (max-width: 768px) {
+  .cart__comic {
+    flex-direction: column;
+  }
+
+  .cart__comic__right-part {
+    margin-top: 40px;
+  }
+}

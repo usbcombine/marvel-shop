@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+}

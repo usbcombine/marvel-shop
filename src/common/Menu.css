@@ -1,0 +1,31 @@
+.menu {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.4s ease-in;
+}
+
+.menu--black {
+  background-color: #202020;
+}
+
+.menu__logo {
+  width: 100px;
+  object-fit: contain;
+}
+
+.menu__cart {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.menu__cart-total {
+  margin-left: 14px;
+  font-size: 30px;
+}
